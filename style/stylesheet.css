@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0px 3px 0px 3px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.header {
+	flex: 1 0 auto;
+}
+
+.breadcrumb {
+	background-color: transparent;
+ }
+
+.breadcrumb a {
+	color: grey;
+}
+
+.footer {
+	flex: 0 0 auto;
+	background-color: #231f20;
+	padding: 15px 15px 40px 30px;
+}
+
+.footer a {
+	color: #fff;
+}
+
+.footer a:hover {
+	color: #fff;
+}
+
+.logo {
+	position: relative;
+}
+
+.d-flex {
+	margin: 30px -17px 30px -17px;
+}
+
+.d-flex a {
+	padding-top: 30px;
+	color: #231f20;	
+}
+
+.d-flex a:link:hover:active:hover {
+	color: #231f20;
+}
+
+.fa-globe {
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 45px;
+	background-color: #fff;
+	color: #231f20;
+}	
+
+.icon {
+	padding: 8px;
+	background-color: #231f20; 
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.title {
+	white-space: nowrap;
+	padding-left: 110px; 
+	padding-top: 20px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.phone {
+	position: relative;
+	text-align: right;
+}
+
+.numb {
+	color: #da511f;
+}
+
+.col {
+	padding: 0 0 0 0;
+}
+
+.col a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #231f20;
+  min-height: 45px;
+  border-width: 0px 1px 0px 1px;
+  border-style: solid;
+  border-color: #da511f;
+  text-decoration: none;
+  color: #fff;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.col a:hover {
+  background: #da511f;
+}
+
+.col-xs {
+	padding: 0 0 0 15px;
+}
+
+.row-margin {
+	margin: 0 0 -40px 0;
+}
+
+.content {
+	padding: 15px;
+    margin: 30px 0 0 20px;
+	background-color: #eaeff3;
+	width: 65%;
+	min-width: 65%;
+}
+
+.form {
+	width: 100%;
+	background-color: #eaeff3;
+	padding: 15px;
+}
+
+h3 {
+	color: #da511f;
+	margin-left: 10%;
+	margin-bottom: 25px;
+}
+
+.calc tr {
+	height: 40px;
+}
+
+.cln {
+	text-align: right;
+}
+
+#sliderIns {
+	padding-top: -15px;
+	width: 100%;
+}
+
+#sliderPay {
+	width: 100%;
+}
+
+.gr {
+	margin-top: -1px;
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+
+.tdt {
+	padding-left: 50px;
+	width: 50%;
+}
+
+.error {
+	border: 1px solid red;
+}
