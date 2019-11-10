@@ -20,9 +20,9 @@ return [
 	],
 
 	'debitcards' => [
-		'controller' => 'debitcards',
-		'title' => 'Дебитовые карты',
-		'action' => 'debitcards',
+		'controller' => 'debetcards',
+		'title' => 'Дебетовые карты',
+		'action' => 'debetcards',
 	],
 
 	'holdings' => [
@@ -32,9 +32,9 @@ return [
 	],
 
 	'freands' => [
-		'controller' => 'freands',
+		'controller' => 'friends',
 		'title' => 'Друзья',
-		'action' => 'freands',
+		'action' => 'friends',
 	],
 
 	'internetbank' => [
