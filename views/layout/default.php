@@ -29,9 +29,9 @@
 				<div class="row">
 					<div class="col"><a href="/creditcards">Кредитные карты</a></div>
 					<div class="col"><a href="/holdings">Вклады</a></div>
-					<div class="col"><a href="/debitcards">Дебитовая карта</a></div>
+					<div class="col"><a href="/debitcards">Дебетовая карта</a></div>
 					<div class="col"><a href="/insurance">Страхование</a></div>
-					<div class="col"><a href="/freands">Друзья</a></div>
+					<div class="col"><a href="/friends">Друзья</a></div>
 					<div class="col"><a href="/internetbank">Интернет-банк</a></div>
 				</div>
 			</div>
@@ -65,9 +65,9 @@
 				<div class="row">
 					<div class="col-xs"><a href="/creditcards">Кредитные карты</a></div>
 					<div class="col-xs"><a href="/holdings">Вклады</a></div>
-					<div class="col-xs"><a href="/debitcards">Дебитовая карта</a></div>
+					<div class="col-xs"><a href="/debitcards">Дебетовая карта</a></div>
 					<div class="col-xs"><a href="/insurance">Страхование</a></div>
-					<div class="col-xs"><a href="/freands">Друзья</a></div>
+					<div class="col-xs"><a href="/friends">Друзья</a></div>
 					<div class="col-xs"><a href="/internetbank">Интернет-банк</a></div>
 				</div>
 			</div>

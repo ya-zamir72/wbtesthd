@@ -4,9 +4,9 @@ namespace controllers;
 
 use core\Controller;
 
-class FreandsController extends Controller {
+class FriendsController extends Controller {
 
-	public function freandsAction() {		
+	public function friendsAction() {		
 		$this->view->render();
 	}
 }
