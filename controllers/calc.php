@@ -6,7 +6,7 @@
 		$sumPay = $_POST['sumPay'];
 		$period = $_POST['period'];
 
-		$perc = 10;	
+		$perc = 0.1;	
 		$Sm = $sumIns;
 		$date = strtotime($start_date);
 		$end_date = strtotime($start_date. '+'.$period.' year');
