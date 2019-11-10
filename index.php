@@ -1,4 +1,4 @@
-<?
+<?php
 use core\Router;
 
 spl_autoload_register(function($class) {
