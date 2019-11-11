@@ -136,7 +136,7 @@ body {
     margin: 30px 0 0 20px;
 	background-color: #eaeff3;
 	width: 65%;
-	min-width: 65%;
+	max-width: 65%;
 }
 
 .form {
@@ -181,4 +181,9 @@ h3 {
 
 .error {
 	border: 1px solid red;
+}
+
+.lbl {
+	margin: 3px 5px 3px 5px;
+	text-align: right;
 }

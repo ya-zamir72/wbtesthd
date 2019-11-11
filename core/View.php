@@ -40,8 +40,7 @@ class View {
 	}
 
 	public static function errorCode($code) {
-		http_response_code($code);
-		require 'views/errors/'.$code.'.php';
+		header('location: https://9gag.com/404');
 		exit;
 	}
 
