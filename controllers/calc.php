@@ -25,10 +25,13 @@
 				$y = date("y", $date);
 				$dn = cal_days_in_month(CAL_GREGORIAN, $m, $y);
 				$days = date('L', $date) ? 366 : 365;
-
-				$Sm = round($Sm + ($Sm + $sumPay * $p) * $dn * ($perc / $days), 2);
+				
+				$Sm = round($Sm + $Sm * $dn * ($perc / $days), 2);
+				$Sm += $sumPay * $p;
 			}
 		}
+		
+		$Sm -= $sumPay * $p;
 
 		echo number_format($Sm, 2, '.', ' ')." рублей";
 
